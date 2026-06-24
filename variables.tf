@@ -5,7 +5,7 @@ variable "resource_group_name" {
 
 variable "location" {
   description = "Azure region where resources will be created"
-  default     = "East US"
+  default     = "westus"
 }
 
 variable "vnet_name" {
